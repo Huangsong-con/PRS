@@ -1,7 +1,7 @@
 # PRS：A Software Package for Parallel Ranking and Selection Procedures
 
 
-PRS includes three popular parallel R\&S procedures, i.e., the good selection procedure (GSP) proposed by [\cite{NCHH2016}](https://doi.org/10.1287/opre.2016.1577), the knockout-tournament (KT) procedure proposed by [\cite{zhong2019knockout}](https://doi.org/10.1287/opre.2020.2065), and the fixed-budget knockout-tournament (FBKT) procedure proposed by [\cite{HJZ2022}](https://doi.org/10.1287/ijoc.2022.1221).
+PRS includes three popular parallel R\&S procedures, i.e., the good selection procedure (GSP) proposed by [Ni 2017](https://doi.org/10.1287/opre.2016.1577), the knockout-tournament (KT) procedure proposed by [Zhong 2019}](https://doi.org/10.1287/opre.2020.2065), and the fixed-budget knockout-tournament (FBKT) procedure proposed by [Hong 2022}](https://doi.org/10.1287/ijoc.2022.1221).
 
 # File and Directory Overview
 
