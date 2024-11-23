@@ -21,5 +21,3 @@ Supported Platforms: Windows, Debian-based Linux
 Java Version Required: 1.8
 Python Version Required: 3.10
 Spark Version Required: 3.4.0
-
-
