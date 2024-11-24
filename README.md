@@ -1,13 +1,13 @@
 # PRS：A Software Package for Parallel Ranking and Selection Procedures
 
 
-PRS includes three popular parallel R&S procedures, i.e., the good selection procedure (**GSP**) proposed by [1](https://doi.org/10.1287/opre.2016.1577), the knockout-tournament (**KT**) procedure proposed by [2](https://doi.org/10.1287/opre.2020.2065), and the fixed-budget knockout-tournament (**FBKT**) procedure proposed by [3](https://doi.org/10.1287/ijoc.2022.1221).
+PRS includes three popular parallel R&S procedures, i.e., the good selection procedure (**GSP**) proposed by [ Ni et al. (2017)](https://doi.org/10.1287/opre.2016.1577), the knockout-tournament (**KT**) procedure proposed by [ Zhong and Hong (2022)](https://doi.org/10.1287/opre.2020.2065), and the fixed-budget knockout-tournament (**FBKT**) procedure proposed by [ Hong et al. (2022)](https://doi.org/10.1287/ijoc.2022.1221).
 
 ## References
 
-1. Ni, E. C., Ciocan, D. F., Henderson, S. G., & Hunter, S. R. (2017). Efficient ranking and selection in parallel computing environments. *Operations Research, 65*(3), 821–836.  
-2. Zhong, Y., & Hong, L. J. (2022). Knockout-tournament procedures for large-scale ranking and selection in parallel computing environments. *Operations Research, 70*(1), 432–453.  
-3. Hong, L. J., Jiang, G., & Zhong, Y. (2022). Solving large-scale fixed-budget ranking and selection problems. *INFORMS Journal on Computing, 34*(6), 2930–2949.  
+Ni, E. C., Ciocan, D. F., Henderson, S. G., & Hunter, S. R. (2017). Efficient ranking and selection in parallel computing environments. *Operations Research, 65*(3), 821–836.  
+Zhong, Y., & Hong, L. J. (2022). Knockout-tournament procedures for large-scale ranking and selection in parallel computing environments. *Operations Research, 70*(1), 432–453.  
+Hong, L. J., Jiang, G., & Zhong, Y. (2022). Solving large-scale fixed-budget ranking and selection problems. *INFORMS Journal on Computing, 34*(6), 2930–2949.  
 
 # File and Directory Overview
 
