@@ -15,7 +15,7 @@ This package includes the source code for both the Java and Python versions of P
 - **Code for Java version of PRS**: This package includes the source code for the Java version of PRS.
 - **Code for Python version of PRS**: This package includes the source code for the Java version of PRS.
 - **PRS.cmd**: This script file is used to launch PRS on Windows systems.
-- **winutils.exe**: This script file ensures compatibility for running Apache Spark on Windows systems.
+- **winutils.exe**: This file ensures compatibility for running Apache Spark on Windows systems.
 - **PRS.sh**: This script file is used to launch PRS on Debian-based Linux systems.
 - **PRS User Manual.pdf**: The user manual offers detailed, step-by-step instructions for applying the software to solve real-world problems.
 
