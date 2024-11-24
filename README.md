@@ -24,6 +24,7 @@ Spark Version Required: 3.4.0
 ```
 
 # References
+Hong LJ, Jiang G, Zhong Y (2022) Solving large-scale fixed-budget ranking and selection problems. *INFORMS Journal on Computing, 34*(6), 2930–2949.  
 Ni EC, Ciocan DF, Henderson SG, Hunter SR (2017) Efficient ranking and selection in parallel computing environments. *Operations Research, 65*(3), 821–836.  
 Zhong Y, Hong LJ (2022) Knockout-tournament procedures for large-scale ranking and selection in parallel computing environments. *Operations Research, 70*(1), 432–453.  
-Hong LJ, Jiang G, Zhong Y (2022) Solving large-scale fixed-budget ranking and selection problems. *INFORMS Journal on Computing, 34*(6), 2930–2949.  
+
