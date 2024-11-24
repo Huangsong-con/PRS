@@ -5,13 +5,13 @@ PRS includes three popular parallel R\&S procedures, i.e., the good selection pr
 
 # File and Directory Overview
 
-The PRS package includes four files and two directories:
-- **Code for Java version of PRS**: Contains the source code required for the Java version.
-- **Code for Python version of PRS**: Contains the source code needed for the Python version.
-- **PRS.cmd**: The startup file for PRS on Windows systems.
-- **winutils.exe**: Essential software for using PRS on Windows systems.
-- **PRS.sh**: The startup file for PRS on Debian-based Linux systems.
-- **PRS User Manual.pdf**: Provides detailed instructions on installing the relevant software and using PRS.
+This package includes the source code for both the Java and Python versions of PRS, along with a user manual, an executable file, named winutils.exe, and two script files: PRS.cmd and PRS.sh.
+- **Code for Java version of PRS**: This package includes the source code for the Java version of PRS.
+- **Code for Python version of PRS**: This package includes the source code for the Java version of PRS.
+- **PRS.cmd**: The **PRS.cmd** script file is used to launch PRS on Windows systems.
+- **winutils.exe**: The **winutils.exe** file ensures compatibility for running Apache Spark on Windows systems.
+- **PRS.sh**: The **PRS.sh** script file is used to launch PRS on Debian-based Linux systems.
+- **PRS User Manual.pdf**: The user manual offers detailed, step-by-step instructions for applying the software to solve real-world problems..
 
 # Software Version
 
