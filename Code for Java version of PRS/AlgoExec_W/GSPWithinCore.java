@@ -61,7 +61,6 @@ public class GSPWithinCore {
         for (int i = 0; i < ALT.size(); i++) {
             double[] sample = new double[n1]; // Array to store samples
             double mean = 0; // Mean of samples
-            ALT.get(i).setSimulateTime(0);
 
             // Generate n1 samples for the current alternative
             for (int j = 0; j < n1; j++) {

@@ -72,7 +72,6 @@ class GSPPlus:
         for i in range(len(self.ALT)):
             samples = np.zeros(n1)  # Array to store samples for each alternative
             mean = 0 # Mean of samples
-            self.ALT[i].set_simulation_time(0)
             # Generate n1 samples for the current alternative
             for j in range(n1):
                 samples[j] = self.ALT[i].run_system()
