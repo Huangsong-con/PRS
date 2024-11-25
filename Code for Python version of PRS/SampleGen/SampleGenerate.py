@@ -4,7 +4,7 @@ import numpy as np
 
 
 #  The simulation function using specified parameters and a random seed.
-@jit(nopython=True) # Applying JIT decorator(Optional)
+@jit(nopython=True) # Applying JIT decorator (Optional)
 def runSimulation(argsP, seedP):
     s1, s2, s3 = argsP[1], argsP[2], argsP[3]
     b2, b3 = argsP[4], argsP[5]
