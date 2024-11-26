@@ -150,18 +150,14 @@ public class SampleGenerate implements Serializable {
      * @param seedJ Random seed for the simulation.
      * @return The throughput calculated from the simulation.
      */
-
     public double runSimulation(double[] argsJ,long seedJ) {
-        double s1 = argsJ[1];
-        double s2 = argsJ[2];
-        double s3 = argsJ[3];
-        double b2 = argsJ[4];
-        double b3 = argsJ[5];
+        double s1 = argsJ[1], s2 = argsJ[2], s3 = argsJ[3];
+        double b2 = argsJ[4], b3 = argsJ[5];
         Random R = new Random(seedJ);
-        //Main simulation process starts
+        // Main simulation process starts
         double[][] ST = new double[2050][3];
         double[][] ET = new double[2050][3];
-        for (int i = 0; i < 2050; i++){
+        for ( int i = 0; i < 2050; i++){
             ST[i][0] = -Math.log(1-R.nextDouble())/s1;
             ST[i][1] = -Math.log(1-R.nextDouble())/s2;
             ST[i][2] = -Math.log(1-R.nextDouble())/s3;
@@ -169,19 +165,19 @@ public class SampleGenerate implements Serializable {
         ET[0][0] = ST[0][0];
         ET[0][1] = ET[0][0] + ST[0][1];
         ET[0][2] = ET[0][1] + ST[0][2];
-        for(int i=1; i < 2050; i++){
-            ET[i][0] = ET[i - 1][0] + ST[i][0];
-            ET[i][1] = Math.max(ET[i - 1][1], ET[i][0]) + ST[i][1];
-            ET[i][2] = Math.max(ET[i - 1][2], ET[i][1]) + ST[i][2];
-            if (i >= b2) {
-                ET[i][0] = Math.max(ET[i][0], ET[(int)(i - b2)][1]);
+        for ( int i = 1; i < 2050; i++){
+            ET[i][0] = ET[i-1][0] + ST[i][0];
+            ET[i][1] = Math.max(ET[i-1][1],ET[i][0]) + ST[i][1];
+            ET[i][2] = Math.max(ET[i-1][2],ET[i][1]) + ST[i][2];
+            if ( i >= b2 ) {
+                ET[i][0] = Math.max(ET[i][0],ET[(int)(i-b2)][1]);
             }
-            if (i >= b3) {
-                ET[i][1] = Math.max(ET[i][1], ET[(int)(i - b3)][2]);
+            if ( i >= b3 ) {
+                ET[i][1] = Math.max(ET[i][1],ET[(int)(i-b3)][2]);
             }
         }
-        //Main simulation process ends
-        return (2050 - 2000) / (ET[2050 - 1][2] - ET[2000 - 1][2]);
+        // Main simulation process ends
+        return (2050 - 2000) / (ET[2050-1][2] - ET[2000-1][2]);
     }
 
     /**
